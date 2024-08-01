@@ -15,11 +15,14 @@ body {
     flex-direction: column;
 }
 
-.header {
+.one {
     background-color: #1F2937;
+    padding: 24px 96px;
+}
+
+.header {
     display: flex;
     color: whitesmoke;
-    padding: 24px 96px;
     font-size: 16px;
     align-items: center;
     justify-content: space-between;
@@ -29,6 +32,41 @@ body {
     font-size: 24px;
     font-weight: 600;
     width: 100px;
+    height: auto;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 72px;
+    gap: 60px;
+}
+
+.content-image {
+    width: 600px;
+    height: auto;
+}
+
+.butn {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 25px;
+    background-color: #2196f3;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .header-links {
