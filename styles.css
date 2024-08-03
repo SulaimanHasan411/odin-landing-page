@@ -73,3 +73,30 @@ body {
     display: flex;
     gap: 16px;
 }
+
+.two {
+    margin: 48px;
+}
+
+.two-title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px;
+}
+
+.img {
+    width: 256px;
+    height:256px;
+}
+
+.image-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.img-line-content {
+    width: 256px;
+}
