@@ -105,7 +105,7 @@ body {
 .three {
     margin-top: 48px;
     background-color: #D3D3D3;
-    padding: 88px 48px;
+    padding: 100px 160px;
 }
 
 .quote {
@@ -116,4 +116,39 @@ body {
 .author {
     font-size: 24px;
     text-align: right;
+}
+
+.four {
+    padding: 48px 64px;
+}
+
+.action-call{
+    background-color: #2196f3;
+    display: flex;
+    padding: 32px 52px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+}
+
+.action-text {
+    color: white;
+}
+
+.action-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.signup a {
+    text-decoration: none;
+    color: white;
+    background-color: #2196f3;
+    padding: 10px 16px;
+    border-radius: 25px;
+    border: 3px solid white;
 }
