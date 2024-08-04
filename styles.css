@@ -119,7 +119,8 @@ body {
 }
 
 .four {
-    padding: 48px 64px;
+    padding: 96px 64px;
+    margin: 20px 0;
 }
 
 .action-call{
